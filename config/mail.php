@@ -56,7 +56,7 @@ return [
     */
 
     'from' => [
-        'address' => 'suman0359@gmail.com',
+        'address' => '',
         'name' => 'Tasfir Hossain Suman',
     ],
 
@@ -84,7 +84,7 @@ return [
     |
     */
 
-    'username' => env('suman0359@gmail.com'),
+    'username' => env(''),
 
     /*
     |--------------------------------------------------------------------------
@@ -97,7 +97,7 @@ return [
     |
     */
 
-    'password' => env('sdrmdths0359'),
+    'password' => env(''),
 
     /*
     |--------------------------------------------------------------------------
