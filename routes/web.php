@@ -24,3 +24,5 @@ Route::get('/', function () {
 
 
 Route::get('/home', 'HomeController@index');
+Route::get('/user/create', 'HomeController@user_add');
+Route::get('/user/index', 'HomeController@user_index');

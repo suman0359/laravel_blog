@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
+use DB;
 
 class HomeController extends Controller
 {
@@ -24,5 +26,14 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+    public function user_add(){
+        return view('user.user_add');
+    }
+
+    public function user_index(){
+        $users = User::all();                 
+        return view('user.user_index', compact('users'));
     }
 }
